@@ -5,7 +5,7 @@ A Docker-based playground for running Goemon (Kama) programs as CGI on Apache.
 ## Setup
 
 ```bash
-git clone --recurse-submodules <repository URL>
+git clone --recurse-submodules https://github.com/yu-corder/goemon-cgi
 cd goemon-cgi
 docker build -t kama-cgi .
 ```
