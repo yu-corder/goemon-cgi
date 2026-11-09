@@ -1,0 +1,13 @@
+function int row(int i) {
+    print "<li>item ";
+    print i;
+    print "</li>\n";
+    return 0;
+}
+print "Content-Type: text/html; charset=utf-8\n\n";
+print "<!DOCTYPE html>\n<html><head><title>Kama</title></head><body>\n";
+print "<h1 class='title'>こんにちは</h1>\n<ul>\n";
+for (int i = 1; i <= 3; i++) {
+    row(i);
+}
+print "</ul>\n</body></html>\n";
