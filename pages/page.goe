@@ -5,7 +5,13 @@ function int row(int i) {
     return 0;
 }
 print "Content-Type: text/html; charset=utf-8\n\n";
-print "<!DOCTYPE html>\n<html><head><title>Kama</title></head><body>\n";
+print "<!DOCTYPE html>\n<html><head><title>Kama</title>\n";
+print "<style>\n";
+print "body { font-family: sans-serif; margin: 2rem; background: #fafafa; }\n";
+print ".title { color: #c0392b; border-bottom: 2px solid #c0392b; }\n";
+print "li { padding: 4px 0; }\n";
+print "</style>\n";
+print "</head><body>\n";
 print "<h1 class='title'>こんにちは</h1>\n<ul>\n";
 for (int i = 1; i <= 3; i++) {
     row(i);
